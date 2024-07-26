@@ -2,8 +2,53 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+
 }
 
 body{
-    background-color: aqua;
+    width: 100%;
+    background-color: aliceblue;
+    position: relative;
+}
+#menu{
+    background: black;
+    width: 200px;
+    height: 100vh;
+}
+
+#menu .logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 30px 0 0  30px;
+}
+.logo img{
+width: 40px;
+border-radius: 50%;
+margin-right: 15px;
+}
+
+.items{
+    margin-top: 40px;
+}
+.items li{
+    padding: 15px;
+    
+}
+.items li :hover{
+    color: coral;
+    cursor: pointer;
+}
+.items li i a{
+    list-style: none;
+}
+
+.items li i{
+    color: burlywood;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 10px 0 25px;
 }
