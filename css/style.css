@@ -9,6 +9,7 @@ body{
     width: 100%;
     background-color: aliceblue;
     position: relative;
+    display: flex;
 }
 #menu{
     background: black;
@@ -51,4 +52,16 @@ margin-right: 15px;
     text-align: center;
     font-size: 14px;
     margin: 0 10px 0 25px;
+}
+
+/*  user interface start */
+#interface{
+    width: calc(100%-300px);
+}
+
+
+.imgpro{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
