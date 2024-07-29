@@ -56,10 +56,36 @@ margin-right: 15px;
 
 /*  user interface start */
 #interface{
-    width: calc(100%-300px);
+    width: 100%;
+    
 }
 
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 15px 30px;
+    border-bottom: 3px solid blue;
+    width: 100%;
+}
+.navigation .search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 14px;
+    border-radius: 4px;
+}
+.navigation .search input{
+   border: none;
+   outline: none;
+   font-size: 14px;
+}
 
+.profile{
+    display: flex;
+    justify-content: flex-end;
+}
 .imgpro{
     height: 50px;
     width: 50px;
